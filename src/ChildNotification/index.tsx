@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./child.module.scss";
 
 import avatar_1 from "../../src/userpofileimgs/avatar_1.webp";
