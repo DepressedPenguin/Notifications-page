@@ -1,0 +1,214 @@
+// SCSS CHILD FILE
+
+.sub_notification {
+  background-color: white;
+  width: 55%;
+  height: 95%;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  margin: 10px;
+  gap: 35px;
+  //   border: 1px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px whitesmoke;
+}
+
+.box {
+  //   background-color: rgb(246 250 253);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headline_page {
+  width: 70%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.box_notification_first {
+  background-color: white;
+  //   border: 2px solid #191919;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+
+  h1 {
+    font-weight: 700;
+  }
+}
+
+// SPAN FOR NUMBER OF NOTIFICATION
+.not_number {
+  border: 1px solid blue;
+  text-align: center;
+  height: 30px;
+  width: 29px;
+  padding: 5px;
+  background-color: rgb(6 54 128);
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// HEADLINE MARKS ALL RED
+.headline_marks {
+  width: 30%;
+  background-color: white;
+  //   border: 1px solid gold;
+  gap: 5px;
+
+  p {
+    float: right;
+    font-weight: 700;
+    color: grey;
+    margin-right: 10px;
+  }
+}
+
+// USER PROFILE AND NOTIFICATION
+.profile_user {
+  width: 15%;
+  background-color: rgb(246 250 253);
+  //   border: 1px solid gold;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 45px;
+  }
+}
+
+.user_name {
+  font-weight: 700;
+}
+
+// MAKE RED POINT
+.mark_quote::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255 82 78);
+  border-radius: 55px;
+  margin-left: 10px;
+}
+
+.mark_quote {
+  color: rgb(101 106 113);
+  font-weight: 700;
+}
+
+// TIME POSTED
+.time_posted {
+  color: grey;
+  font-size: 14px;
+}
+
+.chess_game {
+  color: rgb(25 50 93);
+  //   border: 1px solid red;
+  font-weight: 900;
+  font-style: bold;
+}
+
+.chess_game::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255 82 78);
+  border-radius: 55px;
+  margin-left: 10px;
+}
+
+.private_meesage {
+  border: 1px solid rgb(204, 199, 199);
+  width: 98%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 2px;
+
+  .para_message {
+    padding: 10px;
+  }
+}
+
+.user_acitivity {
+  width: 85%;
+  background-color: rgb(246 250 253);
+}
+
+// IMG POST
+.box_Kimberly {
+  background-color: rgb(246 250 253);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+// User Kimberly
+
+.profile_user_Kimberly {
+  width: 15%;
+  background-color: rgb(246 250 253);
+  //   border: 1px solid gold;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 45px;
+  }
+}
+
+//
+.user_acitivity_Kimberly {
+  width: 75%;
+  //   background-color: white;
+}
+
+// IMG POST
+.img_post {
+  width: 10%;
+  height: 45px;
+  //   border: 1px solid red;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+// nanthan_starts
+.nanthan_starts {
+  color: grey;
+  font-weight: 700;
+}
+
+// MEDIA QUERY
+@media only screen and (max-width: 1200px) {
+  .sub_notification {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .sub_notification {
+  }
+}
